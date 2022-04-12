@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  
+    
 }
 
 ul {
@@ -36,7 +36,7 @@ a {
 }
 
 main {
-  margin: 70px 100px;
+  margin: 70px 100px 160px;
   padding: 10px;
   
   display: flex;
@@ -46,7 +46,7 @@ main {
 }
 
 #img1 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .text {  
@@ -77,10 +77,27 @@ p {
 }
 
 footer {
-  margin-top: 20px;
-  
+  display: flex;
   text-align: center;
-  font-family: 'JetBrains Mono', monospace; 
-  color: #C2C2C2;
-
+   
 }
+
+.insta {
+  margin: 30px 356px 30px 256px;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace; 
+  color: #FFFFFF;
+}
+
+#line {
+  width: 570px;
+  color: #00BFA6;
+  margin-bottom: 30px;
+    
+}
+
+#padlock {
+  border: 20px;
+  padding: 20px;
+}
+
