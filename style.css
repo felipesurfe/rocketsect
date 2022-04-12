@@ -8,8 +8,9 @@ body {
 
 header {
   width: 1080px;
-  height: 30px;
-  margin: 70px 100px 0;
+  margin-top: 70px;
+  margin-left: 100px;  
+  
 }
 
 nav {
@@ -35,7 +36,8 @@ a {
 }
 
 main {
-  margin: 100px 100px;
+  margin: 70px 100px;
+  padding: 10px;
   
   display: flex;
   align-items: center;
@@ -75,6 +77,10 @@ p {
 }
 
 footer {
-  text-align: center;
   margin-top: 20px;
+  
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace; 
+  color: #C2C2C2;
+
 }
